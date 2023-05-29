@@ -1,4 +1,4 @@
-# CS 245
+# CS 245 Data Structures and Algorithms (Undergrad)
 Algorithm analysis and asymptotic running time calculations. Algorithm design techniques and implementation details. Algorithms for sorting and searching, trees, graphs, and other selected topics. This course partially covers the "Theory" and "Application" Program Learning Outcomes. Students who complete this course will be able to explain and analyze standard computer science algorithms, specifically:
 Analyze time and space complexity of algorithms, including:
 Array sorting algorithms (Insertion sort, Quicksort, Merge sort, etc.)

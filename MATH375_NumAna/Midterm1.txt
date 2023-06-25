@@ -1,0 +1,61 @@
+"""
+Created on Tue Oct  5 14:40:05 2021
+
+@author: Alex Bradshaw
+"""
+import math
+import numpy as np
+import numpy.linalg
+
+def func1(x):
+    return math.exp(x**2)
+
+def trapezoidal_method(f,a,b,N):
+    integral = 0
+    h = (b-a)/N #step size
+    fa = f(a)
+    for i in range(N):
+        faph = f(a+h)
+        height = (fa + faph)/2
+        integral += height*h
+        fa = faph
+        a += h
+    return integral
+
+def true_gradient(v):
+    vector = np.zeros(len(v))
+    x = v[0]
+    y = v[1]
+    z = v[2]
+    vector[0] = y*z*math.exp(x*y*z)
+    vector[1] = x*z*math.exp(x*y*z)
+    vector[2] = x*y*math.exp(x*y*z)
+    return vector
+
+def func2(v):
+    return math.exp(v[0]*v[1]*v[2])
+
+def estimate_grad(f, x, h):
+    lengthx = len(x)
+    returnVector = np.zeros(lengthx)
+    for i in range(lengthx):
+        vecUpper = x.copy()
+        vecLower = x.copy()
+        vecUpper[i] += h
+        vecLower[i] -= h
+        returnVector[i] = (f(vecUpper) - f(vecLower)) / (h*2)
+    return returnVector    
+
+def main():
+    print(trapezoidal_method(func1, -2, 2, 500))
+    x = np.zeros(3)
+    x[0] = 1
+    x[1] = 2
+    x[2] = 3
+    h = 0.005
+    ghat = estimate_grad(func2, x, h)
+    g = true_gradient(x)
+    rel_error = np.linalg.norm(ghat-g)/np.linalg.norm(g)
+    print(rel_error)
+main()
+    

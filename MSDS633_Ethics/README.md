@@ -50,7 +50,7 @@ plt.show()
 
 
     
-![png](output_2_0.png)
+![png](outputs/output_2_0.png)
     
 
 
@@ -135,13 +135,13 @@ run_simulation(data)
 
 
     
-![png](output_6_0.png)
+![png](outputs/output_6_0.png)
     
 
 
 
     
-![png](output_6_1.png)
+![png](outputs/output_6_1.png)
     
 
 
@@ -155,13 +155,13 @@ run_simulation(data, epsilon=0.1, flag=False)
 
 
     
-![png](output_8_0.png)
+![png](outputs/output_8_0.png)
     
 
 
 
     
-![png](output_8_1.png)
+![png](outputs/output_8_1.png)
     
 
 
@@ -206,13 +206,13 @@ plt.show()
 
 
     
-![png](output_10_0.png)
+![png](outputs/output_10_0.png)
     
 
 
 
     
-![png](output_10_1.png)
+![png](outputs/output_10_1.png)
     
 
 

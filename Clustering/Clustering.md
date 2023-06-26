@@ -139,7 +139,7 @@ model_blobs.plot_clusters()
 
 
     
-![png](output_5_0.png)
+![png](outputs/output_5_0.png)
     
 
 
@@ -152,13 +152,13 @@ model_face.recreate_image(is_bw=True)
 
 
     
-![png](output_6_0.png)
+![png](outputs/output_6_0.png)
     
 
 
 
     
-![png](output_6_1.png)
+![png](outputs/output_6_1.png)
     
 
 
@@ -179,7 +179,7 @@ plt.show()
 
 
     
-![png](output_8_0.png)
+![png](outputs/output_8_0.png)
     
 
 
@@ -195,13 +195,13 @@ model_face.recreate_image()
 
 
     
-![png](output_10_0.png)
+![png](outputs/output_10_0.png)
     
 
 
 
     
-![png](output_10_1.png)
+![png](outputs/output_10_1.png)
     
 
 
@@ -215,7 +215,7 @@ model_blobs.plot_clusters()
 
 
     
-![png](output_11_0.png)
+![png](outputs/output_11_0.png)
     
 
 
@@ -238,7 +238,7 @@ model_blobs.plot_clusters()
 
 
     
-![png](output_14_0.png)
+![png](outputs/output_14_0.png)
     
 
 
@@ -252,7 +252,7 @@ model_blobs.plot_clusters()
 
 
     
-![png](output_15_0.png)
+![png](outputs/output_15_0.png)
     
 
 
@@ -281,37 +281,37 @@ plt.show()
 
 
     
-![png](output_17_0.png)
+![png](outputs/output_17_0.png)
     
 
 
 
     
-![png](output_17_1.png)
+![png](outputs/output_17_1.png)
     
 
 
 
     
-![png](output_17_2.png)
+![png](outputs/output_17_2.png)
     
 
 
 
     
-![png](output_17_3.png)
+![png](outputs/output_17_3.png)
     
 
 
 
     
-![png](output_17_4.png)
+![png](outputs/output_17_4.png)
     
 
 
 
     
-![png](output_17_5.png)
+![png](outputs/output_17_5.png)
     
 
 
@@ -341,31 +341,31 @@ plt.show()
 
 
     
-![png](output_19_0.png)
+![png](outputs/output_19_0.png)
     
 
 
 
     
-![png](output_19_1.png)
+![png](outputs/output_19_1.png)
     
 
 
 
     
-![png](output_19_2.png)
+![png](outputs/output_19_2.png)
     
 
 
 
     
-![png](output_19_3.png)
+![png](outputs/output_19_3.png)
     
 
 
 
     
-![png](output_19_4.png)
+![png](outputs/output_19_4.png)
     
 
 
@@ -422,13 +422,13 @@ plt.show()
 
 
     
-![png](output_24_0.png)
+![png](outputs/output_24_0.png)
     
 
 
 
     
-![png](output_24_1.png)
+![png](outputs/output_24_1.png)
     
 
 
@@ -454,7 +454,7 @@ plt.show()
 
 
     
-![png](output_28_0.png)
+![png](outputs/output_28_0.png)
     
 
 
@@ -516,7 +516,7 @@ model.plot_clusters()
 
 
     
-![png](output_32_0.png)
+![png](outputs/output_32_0.png)
     
 
 

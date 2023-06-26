@@ -40,22 +40,6 @@ X
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -213,8 +197,6 @@ plt.ylabel('Feature Names', size=13)
 plt.show()
 ```
 
-    /var/folders/dc/vmrx_nc16tz65xmfmz0x56kh0000gn/T/ipykernel_6430/1392914790.py:6: MatplotlibDeprecationWarning: Support for passing numbers through unit converters is deprecated since 3.5 and support will be removed two minor releases later; use Axis.convert_units instead.
-      plt.xticks([])
 
 
 

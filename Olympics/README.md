@@ -348,7 +348,7 @@ for i in range(len(df)):
 
 
     
-![png](output_7_0.png)
+![png](outputs/output_7_0.png)
     
 
 
@@ -816,7 +816,7 @@ for i in range(len(df2.columns)):
 
 
     
-![png](output_16_0.png)
+![png](outputs/output_16_0.png)
     
 
 
@@ -1069,7 +1069,7 @@ for i in range(len(df2)-1):
 
 
     
-![png](output_22_0.png)
+![png](outputs/output_22_0.png)
     
 
 
@@ -1567,7 +1567,7 @@ plt.show()
 
 
     
-![png](output_29_0.png)
+![png](outputs/output_29_0.png)
     
 
 
@@ -1945,25 +1945,25 @@ plt.show()
 
 
     
-![png](output_38_0.png)
+![png](outputs/output_38_0.png)
     
 
 
 
     
-![png](output_38_1.png)
+![png](outputs/output_38_1.png)
     
 
 
 
     
-![png](output_38_2.png)
+![png](outputs/output_38_2.png)
     
 
 
 
     
-![png](output_38_3.png)
+![png](outputs/output_38_3.png)
     
 
 
@@ -2082,7 +2082,7 @@ plt.show()
 
 
     
-![png](output_41_0.png)
+![png](outputs/output_41_0.png)
     
 
 
@@ -2196,7 +2196,7 @@ plt.show()
 
 
     
-![png](output_53_0.png)
+![png](outputs/output_53_0.png)
     
 
 
